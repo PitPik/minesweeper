@@ -50,6 +50,9 @@ body {
   width: 100%;
   background-color: white;
 }
+.game-board select:focus {
+  outline: none;
+}
 .game-board button {
   display: inline-block;
   position: relative;
