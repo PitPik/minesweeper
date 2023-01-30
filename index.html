@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Minesweeper</title>
+<link rel="stylesheet" href="index.css"></head>
+<body>
+  <div class="game-board">
+    <div class="header">
+      <select>
+        <option value="9,9,10">Beginner</option>
+        <option value="16,16,40">Intermediate</option>
+        <option value="16,30,99">Expert</option>
+      </select>
+    </div>
+    <div class="header">
+      <div class="counter"></div>
+      <button type="button"></button>
+      <div class="timer"></div>
+    </div>
+    <table class="board">
+      <tbody id="boardBody"></tbody>
+    </table>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
