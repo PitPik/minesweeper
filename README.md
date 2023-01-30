@@ -1,5 +1,7 @@
 # Minesweeper
 
+You don't need a server to play this game. Just DnD the `index.html` file into your browser.
+
 This is a little fun example that shows how to seperate concernes. This game is build uppon the MVC concept. It's meant to be as small as possible although readable and maintainable.
 There is a service that provides the model, a controller that just manipulates the model (or state of the game) and the view, that has it's on state model for its UI components.
 
